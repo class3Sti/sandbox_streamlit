@@ -15,5 +15,4 @@ if __name__ == '__main__':
     # if prompt:
     #     st.write(f'Você disse: {prompt}')
 
-    st.page_link(page='smartsampa.sentinelx.com.br', label='Acesse o SmartSampa')
-    
+    st.page_link(page='https://smartsampa.sentinelx.com.br', label='Acesse o SmartSampa')
