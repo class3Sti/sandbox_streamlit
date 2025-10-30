@@ -8,4 +8,5 @@ if __name__ == '__main__':
     st.write('*E aí,* **CE Valadão**!')
     st.button('OK', on_click=lambda: st.write('Clicou no botão!'))
     st.write('E aí, **Adan**!')
+    txt = st.text_area('Escreva seu texto aqui')
 
