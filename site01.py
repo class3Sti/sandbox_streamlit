@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # Definindo um menu lateral esquerdo
     paginas = {
         'Dados': [
-            st.Page('hello_world.py', title='Olá mundo'),
+            # st.Page('hello_world.py', title='Olá mundo'),
             st.Page('hw.py', title='Olá mundo reduzido'),
         ],
     }
