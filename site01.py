@@ -1,6 +1,8 @@
 # Instruções de como usar os elementos do Streamlit
 # https://docs.streamlit.io/develop/api-reference
 
+def pagina_auxiliar():
+    st.title('Page 2')
 
 import streamlit as st
 
@@ -26,5 +28,5 @@ if __name__ == '__main__':
         ],
     }
 
-    menu_lateral_esquerdo = st.navigation(paginas)
+    menu_lateral_esquerdo = st.navigation(['hw.py', pagina_auxiliar])
     menu_lateral_esquerdo.run()
